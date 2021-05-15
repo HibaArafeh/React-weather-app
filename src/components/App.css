@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  background-image: url("https://images.idgesg.net/images/article/2017/10/dramatic-clouds-100737478-large.jpg");
+  width: 50%;
+  border: 3px solid #4286f4;
+  box-shadow: 2px 2px #638cce;
+  text-align: center;
+  margin: 20px auto;
+}
+.form {
+  margin: 5px;
+  padding: 5px;
+}
+.form input {
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.weather {
+  border: 3px solid #3678d6;
+  background-color: #3d85e9;
+}
